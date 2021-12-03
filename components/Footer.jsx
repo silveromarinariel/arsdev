@@ -43,18 +43,16 @@ function Footer() {
             href="https://api.whatsapp.com/send?phone=543764825194&text=Hola%2C+ArsDev!"
             passHref
           >
-            <>
-              <a target="_blank">
-                <Image
-                  src={process.env.NEXT_PUBLIC_URL + "/img/icon/whatsapp.svg"}
-                  width="24px"
-                  height="24px"
-                  alt=""
-                />
-                <br />
-                +543764825194
-              </a>
-            </>
+            <a target="_blank">
+              <Image
+                src={process.env.NEXT_PUBLIC_URL + "/img/icon/whatsapp.svg"}
+                width="24px"
+                height="24px"
+                alt=""
+              />
+              <br />
+              +543764825194
+            </a>
           </Link>
         </div>
       </div>
