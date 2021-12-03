@@ -37,7 +37,7 @@ function Footer() {
             alt=""
           />
           <br />
-          ARSDEV@GMAIL.COM
+          SILVERO.MARIN.ARIEL@GMAIL.COM
           <br />
           <Link
             href="https://api.whatsapp.com/send?phone=543764825194&text=Hola%2C+ArsDev!"
@@ -62,60 +62,50 @@ function Footer() {
           <br />
           <div className={styles.cardIcons}>
             <Link href="https://www.facebook.com/" passHref>
-              <>
-                <a target="_blank">
-                  <Image
-                    src={process.env.NEXT_PUBLIC_URL + "/img/icon/facebook.svg"}
-                    width="24px"
-                    height="24px"
-                    alt=""
-                  />
-                </a>
-              </>
+              <a target="_blank">
+                <Image
+                  src={process.env.NEXT_PUBLIC_URL + "/img/icon/facebook.svg"}
+                  width="24px"
+                  height="24px"
+                  alt=""
+                />
+              </a>
             </Link>
             <Link
               href="https://www.instagram.com/silvero.marin.ariel/"
               passHref
             >
-              <>
-                <a target="_blank">
-                  <Image
-                    src={
-                      process.env.NEXT_PUBLIC_URL + "/img/icon/instagram.svg"
-                    }
-                    width="24px"
-                    height="24px"
-                    alt=""
-                  />
-                </a>
-              </>
+              <a target="_blank">
+                <Image
+                  src={process.env.NEXT_PUBLIC_URL + "/img/icon/instagram.svg"}
+                  width="24px"
+                  height="24px"
+                  alt=""
+                />
+              </a>
             </Link>
             <Link href="https://twitter.com/ArielSilveroM" passHref>
-              <>
-                <a target="_blank">
-                  <Image
-                    src={process.env.NEXT_PUBLIC_URL + "/img/icon/twitter.svg"}
-                    width="24px"
-                    height="24px"
-                    alt=""
-                  />
-                </a>
-              </>
+              <a target="_blank">
+                <Image
+                  src={process.env.NEXT_PUBLIC_URL + "/img/icon/twitter.svg"}
+                  width="24px"
+                  height="24px"
+                  alt=""
+                />
+              </a>
             </Link>
             <Link
               href="https://www.linkedin.com/in/ariel-silvero-92087711a/"
               passHref
             >
-              <>
-                <a target="_blank">
-                  <Image
-                    src={process.env.NEXT_PUBLIC_URL + "/img/icon/linkedin.svg"}
-                    width="24px"
-                    height="24px"
-                    alt=""
-                  />
-                </a>
-              </>
+              <a target="_blank">
+                <Image
+                  src={process.env.NEXT_PUBLIC_URL + "/img/icon/linkedin.svg"}
+                  width="24px"
+                  height="24px"
+                  alt=""
+                />
+              </a>
             </Link>
           </div>
         </div>
