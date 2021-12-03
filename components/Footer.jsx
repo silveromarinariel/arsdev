@@ -37,7 +37,7 @@ function Footer() {
             alt=""
           />
           <br />
-          TEST.MARIN.ARIEL@GMAIL.COM
+          SILVERO.MARIN.ARIEL@GMAIL.COM
           <br />
           <Link
             href="https://api.whatsapp.com/send?phone=543764825194&text=Hola%2C+ArsDev!"
